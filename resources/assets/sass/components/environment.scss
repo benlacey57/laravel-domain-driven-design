@@ -1,0 +1,28 @@
+.environment-container {
+    width:100%;
+}
+
+.environment {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background: #EEE;
+    color: #333;
+    text-align: center;
+    width: 100%;
+
+    p {
+        margin: 8px;
+        font-size: 14px;
+    }
+}
+
+.environment.local {
+    background: green;
+    color: #FFF;
+}
+
+.environment.staging {
+    background: orange;
+    color: #444;
+}

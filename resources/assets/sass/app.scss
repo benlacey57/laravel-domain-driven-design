@@ -1,0 +1,33 @@
+
+@import './_variables';
+@import './components/environment';
+
+
+body {
+    margin-top: 20px;
+}
+
+#top, #footer {
+    padding:2rem;
+}
+
+#top {
+    background: $top_bg;
+    padding:2rem;
+}
+
+#app {
+    background: $app_bg;
+    padding: 0;
+}
+
+#logo {
+    font-size: 1.8rem;
+    color: $white;
+}
+
+#footer {
+    background: $footer_bg;
+    color: $white;
+    text-align: center;
+}

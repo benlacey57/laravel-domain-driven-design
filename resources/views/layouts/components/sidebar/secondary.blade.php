@@ -1,0 +1,7 @@
+@include('layouts.components.sidebar.secondary.create')
+@include('layouts.components.sidebar.secondary.proposal')
+@include('layouts.components.sidebar.secondary.organisation')
+@include('layouts.components.sidebar.secondary.profile')
+@include('layouts.components.sidebar.secondary.people')
+@include('layouts.components.sidebar.secondary.referrals')
+@include('layouts.components.sidebar.secondary.configuration')
