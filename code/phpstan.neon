@@ -1,0 +1,16 @@
+includes:
+    - ./vendor/nunomaduro/larastan/extension.neon
+
+parameters:
+    paths:
+        - app
+
+    level: 9
+
+    # excludePaths:
+    #    - app/Models/concerns/HasUuid.php
+
+    checkMissingIterableValueType: false
+
+    universalObjectCratesClasses:
+        - Illuminate\Http\Resources\Json\JsonResource
